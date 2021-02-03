@@ -11,22 +11,19 @@
   </head>
 
   <body>
-
-
-
-
     <form onsubmit="onSubmit()"
     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="POST">
       <fieldset class="blocks">
         <legend>Personal information</legend>
         <div class="inputs">
-          <label for="sname">Surname:</label>
+          <label for="surname">Surname:</label>
           <input type="text"
-            id="sname"
-            name="sname"
+            id="surname"
+            name="surname"
             autocomplete="off"
-            minlength="1" maxlength="99">
+            minlength="1"
+            maxlength="99">
         </div>
 
         <div class="inputs">
@@ -74,7 +71,8 @@
           <input type="email"
             id="email"
             name="email"
-            placeholder="email@example.com" autocomplete="off"
+            placeholder="email@example.com"
+            autocomplete="off"
             required>
         </div>
 
