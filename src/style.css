@@ -1,4 +1,4 @@
-.inputs {
+.input {
   margin-bottom: 10px;
 }
 
@@ -6,6 +6,6 @@
   margin-bottom: 20px;
 }
 
-.blocks .inputs:last-child {
+.blocks .input:last-child {
   margin: 0;
 }
